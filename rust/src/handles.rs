@@ -1,0 +1,3120 @@
+//! Opaque handles for recovered C++ classes.
+#![allow(non_camel_case_types)]
+
+#[repr(C)]
+pub struct ARI { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ARI_ProcessToken_AutoSysAppId { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ARI_ProcessToken_SysAppId { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsBrokerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsEnvironmentDatabaseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsExtensibilityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsSearchContentManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AgileGitPtr { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_IUnknown__struct_Windows__Internal__INilDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_Windows__Foundation__IAsyncAction__struct_Windows__Foundation__IAsyncActionCompletedHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_Windows__Foundation__IAsyncOperation_bool___struct_Windows__Foundation__IAsyncOperationCompletedHandler_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile_____struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Storage__StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp________struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct BiasHelper_struct_IUnknown__struct_Windows__Internal__INilDelegate__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CCoSimpleArray_struct_MAPPEDSETTING___2__class_CSimpleArrayStandardCompareHelper_struct_MAPPEDSETTING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CMarshaledInterface { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CSimplePointerArray_unsigned_short__class_CTPolicyCoTaskMem_unsigned_short___class_CSimpleArrayStandardCompareHelper_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CTCoAllocPolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CTSimpleArray_struct_MAPPEDSETTING___2__class_CTPolicyCoTaskMem_struct_MAPPEDSETTING___class_CSimpleArrayStandardCompareHelper_struct_MAPPEDSETTING___class_CSimpleArrayStandardMergeHelper_struct_MAPPEDSETTING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CTSimpleArray_unsigned_short_____2__class_CTPolicyCoTaskMem_unsigned_short_____class_CSimpleArrayStandardCompareHelper_unsigned_short_____class_CSimpleArrayStandardMergeHelper_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CallerIdentity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabaseStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileRef { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_CMarshaledInterface__CMarshalStream { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Microsoft__WRL__Details__EventTargetArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__CSettingItemAndInfoFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__CSettingItemInfoInternal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__CSettingItemInfoRegistry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__SettingsAugmentedExtensionAppLinkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__SettingsEnvironmentDatabaseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__SettingsExtensibilityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__SettingsExtensionAppLinkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__SettingsExtensionAppServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__DataModel__SettingsSearchContentManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_SystemSettings__Environment__SettingsEnvironment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_SystemSettings__DataModel__SettingsAugmentedExtensionAppLink____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_SystemSettings__DataModel__SettingsAugmentedExtensionAppLink_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_SystemSettings__DataModel__SettingsAugmentedExtensionAppLink_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_SystemSettings__DataModel__SettingsExtensionAppLink____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_SystemSettings__DataModel__SettingsExtensionAppLink_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_SystemSettings__DataModel__SettingsExtensionAppLink_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_SystemSettings__DataModel__SettingsExtensionApp____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_SystemSettings__DataModel__SettingsExtensionApp_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_SystemSettings__DataModel__SettingsExtensionApp_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_struct_HSTRING_____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__HashMap_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultHash_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING__________Chunk { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__SimpleKeyValuePair_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class__long___cdecl_WaitForCompletion_struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Storage__StorageFile_____struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile______struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile_______enum_tagCOWAIT_FLAGS__void_______2___FTMEventDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IAgileReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IAsyncInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_ICallingProcessInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IGlobalOptions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMarshal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMrtResourceManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IResourceContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IResourceMap { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IRestrictedErrorInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IRpcOptions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IStream { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingItemInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingItemTelemetry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsAppNotification { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsAugmentedExtensionAppLink { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsEnvironmentDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsEnvironmentDatabaseStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsExtensionAppLink { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_SystemSettings__DataModel__ISettingsSearchDatabaseExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Activation__Private__IApplicationActivationStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Resources__Core__IResourceCandidate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Resources__Core__IResourceManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Resources__Core__IResourceManagerStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Resources__Core__IResourceMap { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__ApplicationModel__Resources__Core__Internal__IResourceManagerStaticInternal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__Detail__IVectorStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterable_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterator_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterator_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IMapView_struct_HSTRING_____class_Windows__ApplicationModel__Resources__Core__ResourceMap { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IMapView_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IMap_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IPropertySet { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Internal__StateRepository__AppExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Internal__StateRepository__ApplicationExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVector_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncActionCompletedHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperationCompletedHandler_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Storage__StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IPropertyValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IUriRuntimeClass { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IUriRuntimeClassFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__INilDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IAppExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplication { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplicationExtension { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IApplicationExtensionStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__StateRepository__IPackage { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Storage__IStorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Storage__IStorageFileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Storage__IStorageFolder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Storage__IStorageItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__IUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ComPtrRef_class_Microsoft_WRL_AgileRef__operator_class_Microsoft_WRL { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_DefaultModule_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_EventTargetArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabaseStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabaseStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_SystemSettings__DataModel__ISettingItemInfo__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_SystemSettings__DataModel__ISettingItem__struct_IWeakReferenceSource__struct_SystemSettings__DataModel__ISettingItemTelemetry__struct_SystemSettings__DataModel__ISettingSyncDataAccess__struct_SystemSettings__DataModel__ISettingsAppNotification { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_SystemSettings__DataModel__ISettingsBroker__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_SystemSettings__DataModel__ISettingsExtensibility__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_SystemSettings__DataModel__ISettingsExtensionAppLink__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_SystemSettings__DataModel__ISettingsExtensionApp__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__Collections__IIterator_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable________struct_IWeakReferenceSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable_____struct_IWeakReferenceSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__Collections__IMapView_struct_HSTRING_____struct_IInspectable_____struct_IWeakReferenceSource__struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__Collections__IMap_struct_HSTRING_____struct_IInspectable_____struct_IWeakReferenceSource__struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_ISettingDBCollectionMap__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_SystemSettings__DataModel__ISettingItemTelemetry__struct_SystemSettings__DataModel__ISettingSyncDataAccess__struct_SystemSettings__DataModel__ISettingsAppNotification { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_SystemSettings__Environment__IEnvironmentChangedEventHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_SystemSettings__DataModel__ISettingsEnvironmentDatabaseStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_SystemSettings__DataModel__ISettingItemTelemetry__struct_SystemSettings__DataModel__ISettingSyncDataAccess__struct_SystemSettings__DataModel__ISettingsAppNotification { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_SystemSettings__DataModel__ISettingSyncDataAccess__struct_SystemSettings__DataModel__ISettingsAppNotification { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_SystemSettings__DataModel__ISettingsSearchDatabase2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_SystemSettings__DataModel__ISettingsSearchDatabase__struct_SystemSettings__DataModel__ISettingsSearchDatabase2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_SystemSettings__DataModel__ISettingsTestDatabase__struct_ISettingDBCollectionMap__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_SystemSettings__Environment__IEnvironmentChangedEventHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__struct_Windows__Foundation__IAsyncOperation_bool___struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile_____struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp________struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Foundation__IAsyncAction__struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Foundation__IAsyncOperation_bool___struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile_____struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp________struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsBrokerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsEnvironmentDatabaseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsExtensibilityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_ActivationFactoryWithCapabilityCheck_class_SystemSettings__DataModel__SettingsSearchContentManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__Details__EventTargetArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_SystemSettings__DataModel__CSettingsDatabase__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__CSettingItemInfoInternal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__CSettingItemInfoRegistry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__CSettingsDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsAugmentedExtensionAppLinkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsBrokerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsEnvironmentDatabaseFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsEnvironmentDatabaseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsExtensibilityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsExtensionAppLinkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsExtensionAppServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_SystemSettings__DataModel__SettingsSearchContentManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__HashMap_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultHash_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING__________Iterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__HashMap_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultHash_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING__________View { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING__________ChunkElementIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING__________ChunkView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING__________SplitIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Foundation__Collections__Internal__SimpleKeyValuePair_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__ComTaskPool__CTaskWrapper_class__lambda_c2fd7731c5ae0d37e65ea73be67c0f1b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class__long___cdecl_WaitForCompletion_struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Storage__StorageFile_____struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile______struct_Windows__Foundation__IAsyncOperation_class_Windows__Storage__StorageFile_______enum_tagCOWAIT_FLAGS__void_______2___FTMEventDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ModuleBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_13 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabaseStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingItemInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingItem__struct_SystemSettings__DataModel__ISettingItemTelemetry__struct_SystemSettings__DataModel__ISettingSyncDataAccess__struct_SystemSettings__DataModel__ISettingsAppNotification { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsAugmentedExtensionAppLink__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsBroker__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsDatabase__struct_SystemSettings__DataModel__ISettingsDatabaseForUser__struct_SystemSettings__DataModel__ISettingsTestDatabase__struct_ISettingDBCollectionMap__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabase__struct_SystemSettings__Environment__IEnvironmentChangedEventHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsExtensibility__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsExtensionAppLink__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsExtensionApp__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_SystemSettings__DataModel__ISettingsSearchContentFeatureControl__struct_SystemSettings__DataModel__ISettingsSearchDatabase__struct_SystemSettings__DataModel__ISettingsSearchDatabase2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IIterator_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IMapView_struct_HSTRING_____struct_IInspectable_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IMap_struct_HSTRING_____struct_IInspectable_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Storage__StorageFile_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Internal__IComPoolTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_StaticStorage_class_Microsoft__WRL__Details__DefaultModule_1___0__int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_WeakReferenceImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ErrorPropagationPolicyTraits__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_EventSource_struct_SystemSettings__DataModel__ISettingsEnvironmentChangedHandler__struct_Microsoft__WRL__InvokeModeOptions__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_SystemSettings__DataModel__ISettingsEnvironmentDatabaseStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_InvokeTraits__2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Module_1__class_Microsoft__WRL__Details__DefaultModule_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Storage__StorageFile_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Internal__IComPoolTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingItemInfo__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingItem__struct_SystemSettings__DataModel__ISettingItemTelemetry__struct_SystemSettings__DataModel__ISettingSyncDataAccess__struct_SystemSettings__DataModel__ISettingsAppNotification { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsAugmentedExtensionAppLink__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsBroker__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsDatabase__struct_SystemSettings__DataModel__ISettingsDatabaseForUser__struct_SystemSettings__DataModel__ISettingsTestDatabase__struct_ISettingDBCollectionMap__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsEnvironmentDatabase__struct_SystemSettings__Environment__IEnvironmentChangedEventHandler__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsExtensibility__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsExtensionAppLink__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsExtensionApp__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_SystemSettings__DataModel__ISettingsSearchContentFeatureControl__struct_SystemSettings__DataModel__ISettingsSearchDatabase__struct_SystemSettings__DataModel__ISettingsSearchDatabase2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IIterator_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IMapView_struct_HSTRING_____struct_IInspectable_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IMap_struct_HSTRING_____struct_IInspectable_____struct_Windows__Foundation__Collections__IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_SystemSettings__DataModel__CSettingsDatabase__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_SystemSettings__DataModel__CSettingsDatabase__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HString { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HStringReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HandleT_struct_Settings__Internal__HandleTraits__GenericHandleTraits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HandleT_struct_Settings__Internal__HandleTraits__LibraryHandleTraits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_SRWLock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct RpcOptionsHelper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SettingsDataModelTelemetry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Settings_Internal_CoImpersonateClientWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Settings_Internal_DeviceRegionStore { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ShellBlockLists { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_AppAccessCheck { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_CRegistrySettingData { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_CRegistrySettingIdList { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_CSettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_CSettingItemAndInfoFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_CSettingItemInfoInternal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_CSettingItemInfoRegistry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_CSettingsDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_HangGuard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_ISettingItemInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_ISettingSyncDataAccess { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_ISettingsTestDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsAugmentedExtensionAppLinkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsBrokerServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsEnvironmentDatabaseFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsEnvironmentDatabaseServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsExtensibilityServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsExtensibilityServer_ResourceLookupInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsExtensionAppLinkServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsExtensionAppServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_DataModel_SettingsSearchContentManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_Environment_IEnvironmentChangedEventHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_FeatureEnablement__tip_DynamicSettingCommandAdapter_InitializeTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_FeatureEnablement__tip_OemAugmentedAppsEnumerationTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_IntegratedServicesRegionPolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_IntegratedServicesRegionPolicy_RegionPolicyStore { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SystemSettings_IntegratedServicesRegionPolicy_RegionPolicyTelemetry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Detail { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_impl_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_impl_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable_______1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_struct_Windows__Foundation__Collections__IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IKeyValuePair_impl_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IKeyValuePair_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IMapView_impl_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IMapView_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IMap_impl_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IMap_struct_HSTRING_____struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_HashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______0__0__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_HashMap_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultHash_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultEqualityPredicate_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_IInspectable_____struct_Windows_Foundation_Collections_Internal_DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING_________Iterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_HashMap_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultHash_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultEqualityPredicate_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_IInspectable_____struct_Windows_Foundation_Collections_Internal_DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING_________View { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_HashMap_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultHash_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultEqualityPredicate_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_IInspectable_____struct_Windows_Foundation_Collections_Internal_DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING_________Chunk { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultEqualityPredicate_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_IInspectable_____struct_Windows_Foundation_Collections_Internal_DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING_________ChunkElementIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultEqualityPredicate_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_IInspectable_____struct_Windows_Foundation_Collections_Internal_DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING_________ChunkView { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultEqualityPredicate_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING______struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_IInspectable_____struct_Windows_Foundation_Collections_Internal_DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows_Foundation_Collections_Internal_DefaultLifetimeTraits_struct_HSTRING_________SplitIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_NaiveSplitView_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_SimpleKeyValuePair_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_detail { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_class_Windows__Storage__StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_impl_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_impl_struct_Windows__Foundation__Internal__AggregateType_bool__unsigned_char { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_impl_struct_Windows__Foundation__Internal__AggregateType_class_Windows__Storage__StorageFile____struct_Windows__Storage__IStorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_AsyncCallbackBase_class_Windows__Internal__CBasicResult_unsigned_char__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_AsyncCallbackBase_class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_AsyncCallbackBase_class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Storage__IStorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_AsyncCallbackBase_class_Windows__Internal__CNoResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_CMarshaledInterfaceResult_struct_Windows__Storage__IStorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_ComTaskPool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_ComTaskPoolHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_ComTaskPool_CTaskWrapper_class__lambda_1dcc162afeae340c8f497e2742fad3a5 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_ComTaskPool_CTaskWrapper_class__lambda_c2fd7731c5ae0d37e65ea73be67c0f1b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Foundation__IAsyncActionCompletedHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Foundation__IAsyncOperationCompletedHandler_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Foundation__IAsyncOperationCompletedHandler_class_Windows__Storage__StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_SystemSettings__DataModel__SettingsExtensionApp { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Internal__INilDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_NativeString_class_Windows__Internal__CoTaskMemPolicy_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_NativeString_class_Windows__Internal__LocalMemPolicy_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_String { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_StringReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_AutoValue_struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_ComLock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_FakeStl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_InterfaceLifetimeTraits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_SecureVersionTag_Tag { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_SecureVersionTag_TagManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_SerializingLockPolicy { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_StringEquals { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_StringHash { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_XHashMap_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__HashMap_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultHash_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_IInspectable_____struct_Windows__Foundation__Collections__Internal__DefaultHashMapOptions_struct_HSTRING_____struct_IInspectable____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING__________KeyTraits__class_XWinRT__CElementTraits_struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct XWinRT_detail_ReentrancyGuard_0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct int___cdecl_winrt_impl_make_marshaler_struct_winrt_impl_abi_struct_winrt_Windows_Foundation_IUnknown__void__type____void________2__marshaler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0374aa0a5d1201b2358c6bce99369c58 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0bd05c1c2ed219de95ae87c299814210 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0d865b96fce7c02641690f4c93be6806 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0fef438917c0d0703b0a8fdd9b670136 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_10c49daff106eda6cd549e72eba815f6 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_120d0c6b51dc644cb63ed5c7fc62f6c3 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_13635835e0384dfbfdae1aeac8f8a2b9 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_152aa9d2a3a0648fa2fa7fcef514b376 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_16e90beb890bb5a0f3e760349136ba81 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1ad7ecfab602a777ecf020873216a663 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1b92b8e5262a3a633e46bd6cbdfa2f4c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1dcc162afeae340c8f497e2742fad3a5 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1f4c79a207a75cf46bf9e8a665c9cf02 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_20522640dc9f74c96252ae46c200ff52 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_24df58806cc5abd3d861a8c193996bf4 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_2539ef731ed8b33e4613a3f07f605a11 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_272bc7551b6d178b9dff90e021d39d23 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_2b224060454efb691fc6c72c27d5431e { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_2fa3e3d11fb97352afa77a4a13bfb543 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_30c050dc9be2b5b829416e08712c22ad { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_32c8b3fea86403d9f21a612c35bffd2c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_353af4ddb95376d73a1958cc98e23ab4 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_373bbc111db45e1df7ac7df07abb1aaa { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_4192150bc02cff90186439d4d26e6737 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_45a21d6b6ae010c3531bb52fdddad104 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_463b1045c791f3a8ba58f54ad8f0fb08 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_4bf5a1d651211bff2155cb136c977e60 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_4d95e09c9f6014a5f899b903bb83e838 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_4f69142b2b865d1b5deac4e505ea1b8e { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5035b992506f4af81a770c5842624510 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_535fe0d4889b9fd58d63caa6da13cd83 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5f1dd388c03885d19ee806198d2ac5ef { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_63b666b759e740627ed77e2c1fafff5a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_6572cb39eb053ecf8aa601a8cecd7f9b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_724a7c302f7d99218b9b9860a33b43d2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_778ead8d18b80b9855f1d398a836d523 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_823b1f37c09264e3158475c63237eca7 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_841af56e858bd3e7000d6afc8a213023 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_87b21c8e27853f411be2e7eeb0080eb1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_886863c711f187ff213cf0d36d124094 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_8ba8d21844d0d523af08729be0a263ba { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_8bcef120e7c5e2e3c02b5340d469f3bd { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_91d7b0d0ab2d765ccca9adf7460b46b6 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_928f664b5191d81dd0a30a0dca7fb1db { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_9833c6995b5681120dc1bde83f5488e4 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_9aae8b6cca337c52de79ed7a1a4584c1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_9e056b210a4335c7394a3dc941e6564a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_9fcc0990ef58c1b2ac799528752a791d { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_a0d1bd56416d55833dac81ef3f5bced9 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_aa194dc0bf891154933407eb98fb868a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_aab718f954a552f3dded073451bfdfc5 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_af1ac98131a4ec63c40875776acbbecc { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_b32f4ea7ec5318902ad82fac6fd4d52f { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_b5840b5ce48e0f5cd90aa6256b3d912a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_b70241e9b5ebaad244db3e52d52cab17 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_bab34a2b5ffa3bdbdfc20ab9eec2d963 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_be3e5d9dce35d2c8dbfa8485373731d5 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_be7611431bcc7108c470bf2e14d97486 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_c28a16066b696580265246f7a3399e97 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_ca425077811c26dd994b3d0531fe1de0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_cc6c1c4e44c5473bcfcdad0b296c699c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_d51448ba32f8ef42e59400edd4566183 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_d58ae79e70ea34f034364373fe5eff67 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_dc044eb08ded96795f7764053d914671 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_df12a01b87dd988dada7818cd16bb49c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_e04ec004f1317358b17f79d6b0dd4704 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_e35450f3a66a43ef6fdffd941899b0b6 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_e43bb5a12eff94b6716c1ab60c904ba4 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_efcd047aa62b90e0bbe29931e7197792 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_f25c37099038263181b5186a3fa41b37 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_f4c71c656875602930b146a22e280774 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_fee8cea507d2413a58be13acfb66740a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct long___cdecl_WaitForCompletion_struct_Windows_Foundation_IAsyncOperationCompletedHandler_class_Windows_Storage_StorageFile_____struct_Windows_Foundation_IAsyncOperation_class_Windows_Storage_StorageFile______struct_Windows_Foundation_IAsyncOperation_class_Windows_Storage_StorageFile_______enum_tagCOWAIT_FLAGS__void______2__FTMEventDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct private__static_struct_winrt_fire_and_forget___cdecl_winrt_impl_await_adapter_struct_winrt_Windows_Foundation_IAsyncAction__1__cancel_asynchronously_struct_winrt_Windows_Foundation_IAsyncAction____5___parameters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct private__static_struct_winrt_fire_and_forget___cdecl_winrt_impl_await_adapter_struct_winrt_Windows_Foundation_IAsyncOperation_bool___1__cancel_asynchronously_struct_winrt_Windows_Foundation_IAsyncOperation_bool_____5___parameters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct private__static_struct_winrt_fire_and_forget___cdecl_winrt_impl_await_adapter_struct_winrt_Windows_Foundation_IAsyncOperation_int___1__cancel_asynchronously_struct_winrt_Windows_Foundation_IAsyncOperation_int_____5___parameters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct private__static_struct_winrt_fire_and_forget___cdecl_winrt_impl_await_adapter_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_SystemSettings_DataModel_ISettingItem___1__cancel_asynchronously_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_SystemSettings_DataModel_ISettingItem_____5___parameters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct private__static_struct_winrt_fire_and_forget___cdecl_winrt_impl_await_adapter_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_Windows_Foundation_IInspectable___1__cancel_asynchronously_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_Windows_Foundation_IInspectable_____5___parameters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct private__static_struct_winrt_fire_and_forget___cdecl_winrt_impl_await_adapter_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_Windows_Internal_SystemSettingsCommand_SettingCommandExecutionResult___1__cancel_asynchronously_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_Windows_Internal_SystemSettingsCommand_SettingCommandExecutionResult_____5___parameters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct private__static_struct_winrt_fire_and_forget___cdecl_winrt_impl_await_adapter_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_hstring___1__cancel_asynchronously_struct_winrt_Windows_Foundation_IAsyncOperation_struct_winrt_hstring_____5___parameters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct public__void___cdecl_winrt_cancellable_promise_cancel_void____2__unique_cancellation_lock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_merged_data_struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest__struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_merged_data_struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest__struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_shared_data_0__0__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_shared_data_1__0__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_details_test_data_interface { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_data_control_class_tip2__details__merged_data_struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest__struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_data_control_class_tip2__details__merged_data_struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest__struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_flag { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_state { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_watcher_class_tip2__details__merged_data_struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest__struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_test_watcher_class_tip2__details__merged_data_struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest__struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_tip_test_class_tip2__details__merged_data_struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest__struct_SystemSettings__FeatureEnablement___tip_DynamicSettingCommandAdapter_InitializeTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_tip_test_class_tip2__details__merged_data_struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest__struct_SystemSettings__FeatureEnablement___tip_OemAugmentedAppsEnumerationTest { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tip2_vector_nothrow_struct_tip2__test_flag { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_details_stack_enum_tson__output_archive__node_type { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_input_archive { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_output_archive { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_read_buffer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct tson_write_buffer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct type_info { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_SystemSettings_DataModel_ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_SystemSettings_DataModel_ISettingsDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_SystemSettings_DataModel_SettingsDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_IJsonArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_IJsonObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_IJsonObjectStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_IJsonObjectWithDefaultValues { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_IJsonValueStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_JsonArray { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_JsonObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Data_Json_JsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncActionCompletedHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__Collections__IVectorView_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_AsyncOperationCompletedHandler_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterable_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterable_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterable_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterator_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterator_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterator_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterator_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterator_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IIterator_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IMapView_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IMapView_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IMapView_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IMap_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IMap_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IMap_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IMap_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IVectorView_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IVectorView_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IVector_struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_Collections_IVector_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_EventHandler_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_EventHandler_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Foundation__Collections__IVectorView_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Storage__StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IAsyncOperation_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IPropertyValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IPropertyValueStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IReference_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IReference_double { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IReference_int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IReference_struct_winrt__Windows__Foundation__Rect { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IReference_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IReference_unsigned_int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_TypedEventHandler_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Foundation_TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_Helpers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_Helpers_DynamicSettingInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_Helpers_RegistryCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_Helpers_SettingCommandAdapterOption { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_IBooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_IRangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandAdapterFactory2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandFilterResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_ISettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_SystemSettingsCommandTelemetry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_ActionSettingCommandAdapterT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_BooleanSettingCommandAdapterT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_DropdownSettingCommandAdapterT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_RangeSettingCommandAdapterT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandAdapterFactoryT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandDatabaseT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDatabase__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandDispatcherT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDispatcher__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandExecutionContextT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandExecutionResultT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandFilterT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandFilter__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingWrapperT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SystemSettingT_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SystemSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_ActionSettingCommandAdapter_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_BooleanSettingCommandAdapter_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_BooleanSetting_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_DropdownSettingCommandAdapter_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_DynamicSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_HighContrastSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_RangeSettingCommandAdapter_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_RangeSetting_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandAdapterFactory_CustomAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandAdapterFactory_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandDatabase_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandDispatcher_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandExecutionContext_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandExecutionResult_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandFilterResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandFilterResult_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilterResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandFilter_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommandMetadata_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingCommand_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SettingWrapper_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_SystemSettingsCommand_implementation_SystemSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_System_Profile_factory_implementation_RegionPolicyEvaluator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_System_Profile_factory_implementation_RegionPolicyEvaluatorT_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Internal__System__Profile__implementation__RegionPolicyEvaluator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Internal_System_Profile_implementation_RegionPolicyEvaluator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Storage_IFileIOStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Storage_IStorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Storage_IStorageFileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_Storage_StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_UI_Core_CoreWindow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_UI_Core_ICoreWindow { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_Windows_UI_Core_ICoreWindowStatic { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncAction__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_bool___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_int___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_awaiter_struct_winrt__impl__signal_awaiter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_cancellable_promise { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DynamicSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__HighContrastSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IAgileObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IAgileReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IContextCallback { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IErrorInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__ILanguageExceptionErrorInfo2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IMarshal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IRestrictedErrorInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__IWeakReferenceSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__abi_struct_winrt__Windows__Foundation__IActivationFactory__void___type { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__abi_struct_winrt__Windows__Foundation__IUnknown__void___type { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__event_array_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__event_array_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__event_array_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__event_array_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_com_ptr_struct_winrt__impl__weak_ref_1__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_delegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_event_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_event_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_event_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_event_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_handle_type_struct_winrt__impl__bstr_traits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_handle_type_struct_winrt__impl__heap_traits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_handle_type_struct_winrt__impl__hstring_traits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_handle_type_struct_winrt__impl__signal_awaiter__wait_traits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_access_denied { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_canceled { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_changed_state { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_class_not_available { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_class_not_registered { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_error { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_illegal_delegate_assignment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_illegal_method_call { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_illegal_state_change { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_invalid_argument { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_no_interface { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_not_implemented { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_out_of_bounds { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hresult_wrong_thread { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_atomic_ref_count { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_await_adapter_struct_winrt__Windows__Foundation__IAsyncAction__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_bool___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_int___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_collection_version_iterator_type { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_SystemSettings_DataModel_ISettingItem_struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_SystemSettings_DataModel_ISettingsDatabase_struct_winrt__SystemSettings__DataModel__ISettingsDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Data_Json_IJsonObjectStatics_struct_winrt__Windows__Data__Json__IJsonObjectStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Data_Json_IJsonObjectWithDefaultValues_struct_winrt__Windows__Data__Json__JsonObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Data_Json_IJsonObject_struct_winrt__Windows__Data__Json__IJsonObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Data_Json_IJsonValue_struct_winrt__Windows__Data__Json__IJsonObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Data_Json_IJsonValue_struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IIterable_struct_winrt__Windows__Data__Json__JsonObject__struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IIterable_struct_winrt__Windows__Foundation__Collections__IMapView_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable___struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IIterable_struct_winrt__Windows__Foundation__Collections__IMap_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable___struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IIterator_struct_winrt__Windows__Foundation__Collections__IIterator_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IKeyValuePair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue___struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IKeyValuePair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable___struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IMapView_struct_winrt__Windows__Foundation__Collections__IMapView_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable___struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IMapView_struct_winrt__Windows__Foundation__Collections__IMapView_struct_winrt__hstring__struct_winrt__hstring___struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IMap_struct_winrt__Windows__Data__Json__JsonObject__struct_winrt__hstring__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IMap_struct_winrt__Windows__Foundation__Collections__IMap_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable___struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IMap_struct_winrt__Windows__Foundation__Collections__IMap_struct_winrt__hstring__struct_winrt__hstring___struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IVectorView_struct_winrt__Windows__Foundation__Collections__IVectorView_struct_winrt__hstring___struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Data__Json__JsonArray__struct_winrt__Windows__Data__Json__IJsonValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Foundation__Collections__IVector_struct_winrt__SystemSettings__DataModel__ISettingItem___struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Foundation__Collections__IVector_struct_winrt__Windows__Foundation__IInspectable___struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Foundation__Collections__IVector_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand___struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_Collections_IVector_struct_winrt__Windows__Foundation__Collections__IVector_struct_winrt__hstring___struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncAction_struct_winrt__Windows__Foundation__IAsyncAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncOperation_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncOperation_int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Storage__StorageFile { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncInfo_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Foundation__IAsyncOperation_bool___bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IAsyncOperation_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring___struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IPropertyValue_struct_winrt__Windows__Foundation__IPropertyValue { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IReference_struct_winrt__Windows__Foundation__IReference_bool___bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IReference_struct_winrt__Windows__Foundation__IReference_double___double { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IReference_struct_winrt__Windows__Foundation__IReference_int___int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IReference_struct_winrt__Windows__Foundation__IReference_struct_winrt__hstring___struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Foundation_IReference_struct_winrt__Windows__Foundation__IReference_unsigned_int___unsigned_int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_IRangeSetting_struct_winrt__Windows__Internal__SystemSettingsCommand__IRangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingCommandAdapterFactory_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingCommandAdapterFactory_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingCommandAdapter_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingCommandDatabase_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingCommandExecutionContext_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingCommandMetadata_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingCommand_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Internal_SystemSettingsCommand_ISettingWrapper_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Storage_IFileIOStatics_struct_winrt__Windows__Storage__IFileIOStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_consume_Windows_Storage_IStorageFileStatics_struct_winrt__Windows__Storage__IStorageFileStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncActionCompletedHandler__class__lambda_16e90beb890bb5a0f3e760349136ba81 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncActionCompletedHandler__struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncAction__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_bool___class__lambda_0d865b96fce7c02641690f4c93be6806 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_bool___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_bool___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_int___class__lambda_9aae8b6cca337c52de79ed7a1a4584c1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_int___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_int___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__SystemSettings__DataModel__ISettingItem___class__lambda_4192150bc02cff90186439d4d26e6737 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__SystemSettings__DataModel__ISettingItem___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__Collections__IVectorView_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand_____class__lambda_f4c71c656875602930b146a22e280774 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_efcd047aa62b90e0bbe29931e7197792 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__IInspectable___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting___class__lambda_778ead8d18b80b9855f1d398a836d523 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting___class__lambda_0bd05c1c2ed219de95ae87c299814210 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___class__lambda_13635835e0384dfbfdae1aeac8f8a2b9 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__hstring___class__lambda_1b92b8e5262a3a633e46bd6cbdfa2f4c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__hstring___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_928f664b5191d81dd0a30a0dca7fb1db { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_9fcc0990ef58c1b2ac799528752a791d { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_c28a16066b696580265246f7a3399e97 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__hstring___class__lambda_4d95e09c9f6014a5f899b903bb83e838 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__hstring___class__lambda_10c49daff106eda6cd549e72eba815f6 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting__struct_winrt__Windows__Foundation__IInspectable___class__lambda_cc6c1c4e44c5473bcfcdad0b296c699c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_delegate_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting__struct_winrt__Windows__Foundation__IInspectable___class__lambda_a0d1bd56416d55833dac81ef3f5bced9 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncAction__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_bool___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_int___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_factory_cache_entry_base { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_factory_count_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DynamicSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__HighContrastSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilterResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_heap_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_base { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncActionCompletedHandler__class__lambda_16e90beb890bb5a0f3e760349136ba81 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncActionCompletedHandler__struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncAction__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_bool___class__lambda_0d865b96fce7c02641690f4c93be6806 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_bool___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_bool___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_int___class__lambda_9aae8b6cca337c52de79ed7a1a4584c1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_int___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_int___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__SystemSettings__DataModel__ISettingItem___class__lambda_4192150bc02cff90186439d4d26e6737 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__SystemSettings__DataModel__ISettingItem___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__Collections__IVectorView_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand_____class__lambda_f4c71c656875602930b146a22e280774 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_efcd047aa62b90e0bbe29931e7197792 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Foundation__IInspectable___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting___class__lambda_778ead8d18b80b9855f1d398a836d523 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting___class__lambda_0bd05c1c2ed219de95ae87c299814210 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___class__lambda_13635835e0384dfbfdae1aeac8f8a2b9 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__hstring___class__lambda_1b92b8e5262a3a633e46bd6cbdfa2f4c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__AsyncOperationCompletedHandler_struct_winrt__hstring___struct_winrt__impl__disconnect_aware_handler_1__struct_winrt__impl__await_adapter_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring___1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_928f664b5191d81dd0a30a0dca7fb1db { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_9fcc0990ef58c1b2ac799528752a791d { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__Windows__Foundation__IInspectable___class__lambda_c28a16066b696580265246f7a3399e97 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__EventHandler_struct_winrt__hstring___class__lambda_4d95e09c9f6014a5f899b903bb83e838 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__hstring___class__lambda_10c49daff106eda6cd549e72eba815f6 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting__struct_winrt__Windows__Foundation__IInspectable___class__lambda_cc6c1c4e44c5473bcfcdad0b296c699c { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_implements_delegate_struct_winrt__Windows__Foundation__TypedEventHandler_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting__struct_winrt__Windows__Foundation__IInspectable___class__lambda_a0d1bd56416d55833dac81ef3f5bced9 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_module_lock_updater_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IActionSettingCommandAdapterFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IBooleanSettingCommandAdapterFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IDropdownSettingCommandAdapterFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IRangeSettingCommandAdapterFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDatabase__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDispatcher__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionContextFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionResultFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandFilter__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingWrapperFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__ISystemSettingStatics__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__IBooleanSetting__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DynamicSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__HighContrastSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__IRangeSetting__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapterFactory2__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapterFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDatabase__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandDatabase__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandDispatcher__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionContext__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionContext__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionResult__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionResult__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilterResult__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFilterResult__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFilter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandMetadata__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandMetadata__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommand__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingWrapper__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Internal__System__Profile__IRegionPolicyEvaluatorStatics__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_base_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IActionSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IBooleanSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IDropdownSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__IRangeSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDatabase__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDispatcher__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionContextFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionResultFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandFilter__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingWrapperFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__ISystemSettingStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__IBooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DynamicSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__HighContrastSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__IRangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDatabase__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionContext__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionResult__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilterResult__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFilterResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandMetadata__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Internal__System__Profile__IRegionPolicyEvaluatorStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_produce_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_convert_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_convert_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Internal__System__Profile__IRegionPolicyEvaluatorStatics__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncAction { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_bool { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__Collections__IVectorView_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_ref_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Foundation__IActivationFactory__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_producer_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Internal__System__Profile__IRegionPolicyEvaluatorStatics__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_removed_value_struct_winrt__Windows__Foundation__IInspectable__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_removed_value_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_removed_value_struct_winrt__hstring__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_resume_apartment_context { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_ActionSettingCommandAdapter__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_IActionSettingCommandAdapterFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_BooleanSettingCommandAdapter__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_IBooleanSettingCommandAdapterFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_DropdownSettingCommandAdapter__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_IDropdownSettingCommandAdapterFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_RangeSettingCommandAdapter__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_IRangeSettingCommandAdapterFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandExecutionContext__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandExecutionContextFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommandExecutionResult__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandExecutionResultFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingCommand__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_ISettingCommandFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SettingWrapper__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_ISettingWrapperFactory__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt_Windows_Internal_SystemSettingsCommand_factory_implementation_SystemSetting__struct_winrt_Windows_Foundation_IActivationFactory__struct_winrt_Windows_Internal_SystemSettingsCommand_ISystemSettingStatics__abi_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IActionSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IBooleanSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IDropdownSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IRangeSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDatabase__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDispatcher__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionContextFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionResultFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandFilter__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingWrapperFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISystemSettingStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DynamicSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__HighContrastSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDatabase__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionContext__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionResult__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilterResult__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandFilterResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilter__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandMetadata__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__System__Profile__IRegionPolicyEvaluatorStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_root_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncAction__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncOperation_bool___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncOperation_int___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__SystemSettings__DataModel__ISettingItem___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Foundation__IInspectable___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Foundation__IAsyncOperation_struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult___void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_runtime_class_name_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter__void { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_signal_awaiter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_slim_source_location { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_weak_ref_1__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_impl_weak_source_1__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IActionSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IBooleanSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IDropdownSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__IRangeSettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDatabase__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandDispatcher__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionContext__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionContextFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandExecutionResult__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandExecutionResultFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommandFilter__struct_winrt__Windows__Foundation__IActivationFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingCommand__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SettingWrapper__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingWrapperFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__factory_implementation__SystemSetting__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISystemSettingStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__ActionSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ActionSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DropdownSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__DropdownSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__DynamicSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__HighContrastSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSettingCommandAdapter__struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting__struct_winrt__Windows__Internal__SystemSettingsCommand__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandAdapterFactory__struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDatabase__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandDatabase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandDispatcher__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandDispatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionContext__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandExecutionResult__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandExecutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilterResult__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandFilterResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandFilter__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandFilter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommandMetadata__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommandMetadata { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingCommand__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingCommand { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper__struct_winrt__Windows__Internal__SystemSettingsCommand__SettingWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__Windows__Internal__System__Profile__factory_implementation__RegionPolicyEvaluator__struct_winrt__Windows__Foundation__IActivationFactory__struct_winrt__Windows__Internal__System__Profile__IRegionPolicyEvaluatorStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__Windows__Foundation__IInspectable__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_implements_struct_winrt__impl__key_value_pair_struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring_____struct_winrt__Windows__Foundation__Collections__IKeyValuePair_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_param_async_map_view_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_param_hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_param_map_view_struct_winrt__hstring__struct_winrt__Windows__Foundation__IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_param_map_view_struct_winrt__hstring__struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_param_vector_view_struct_winrt__hstring { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_slim_lock_guard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_weak_ref_struct_winrt__SystemSettings__DataModel__ISettingItem { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_weak_ref_struct_winrt__Windows__Internal__SystemSettingsCommand__ISettingCommandAdapter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_weak_ref_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__BooleanSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_weak_ref_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__RangeSetting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct winrt_weak_ref_struct_winrt__Windows__Internal__SystemSettingsCommand__implementation__SettingWrapper { _opaque: [u8; 0] }
+
